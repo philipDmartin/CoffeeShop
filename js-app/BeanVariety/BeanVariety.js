@@ -1,11 +1,11 @@
-const VarietiesComponent = varieties => {
+const Variety = variety => {
   return `
     <section class="varieties">
-        <div>${varieties.name}</div>
-        <div>${varieties.region}</div>
-        <div>${varieties.notes}</div>
+        <div>${variety.name}</div>
+        <div>${variety.region}</div>
+        <div>${variety.notes}</div>
     </section>
     `
 }
 
-export default VarietiesComponent
+export default Variety
